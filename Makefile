@@ -13,7 +13,7 @@ PARASITOID_BIN       = $(PARASITOID_ASM_SRC:.s=)
 
 all: PARASITOID legit payload
 
-PARASITOID:
+parasitoid:
 	nasm -f elf64 $(PARASITOID_ASM_SRC) -o $(PARASITOID_OBJ)
 	$(CC) $(CFLAGS) $(PARASITOID_OBJ) -o $(PARASITOID_BIN)
 

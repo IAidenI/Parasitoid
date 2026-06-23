@@ -2,6 +2,10 @@
 
 Le principe de ce projet est de crée une injection de code dans un processus actif en assembleur. De la même manière que les **Ravasides Parasitoïdes**, le programme va s'attacher au processus cible, placer un code malveillant en lui et l'exécuter avant de se détacher. De cette manière le code malveillant parait légétime au yeux de tout le monde puisqu'il se trouve dans un processus légitime.
 
+# Prérequis
+nasm
+gcc
+
 # Installation
 ```bash
 git clone https://github.com/IAidenI/Parasitoid
