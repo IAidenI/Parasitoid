@@ -11,7 +11,7 @@ PAYLOAD_OBJ     = $(PAYLOAD_SRC:.c=.o)
 LEGIT_BIN       = $(LEGIT_SRC:.c=)
 PARASITOID_BIN       = $(PARASITOID_ASM_SRC:.s=)
 
-all: PARASITOID legit payload
+all: parasitoid legit payload
 
 parasitoid:
 	nasm -f elf64 $(PARASITOID_ASM_SRC) -o $(PARASITOID_OBJ)
