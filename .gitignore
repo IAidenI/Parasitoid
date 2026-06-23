@@ -1,0 +1,11 @@
+*
+!*.c
+!*.h
+!*.s
+!Makefile
+!*.md
+!*.txt
+!.gitignore
+
+*.o
+peda-session*
