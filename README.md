@@ -4,7 +4,7 @@ Le principe de ce projet est de crée une injection de code dans un processus ac
 
 # Installation
 ```bash
-git clone XXXX
+git clone https://github.com/IAidenI/Parasitoid
 cd Parasitoid
 make all
 ```
